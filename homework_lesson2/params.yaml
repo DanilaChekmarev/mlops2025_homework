@@ -1,0 +1,5 @@
+seed: 123
+accuracy_min: 0.60
+test_size: 0.2
+urls:
+  tips: https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv

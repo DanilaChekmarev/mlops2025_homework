@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "lesson2-homework"
+version = "0.1.0"
+description = "Model validation and metrics"
+authors = ["MLOps Course"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "~2.2.0"
+scikit-learn = "~1.5.0"
+dvc = "^3.50"
+great-expectations = "~0.18.0"
+pyyaml = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
